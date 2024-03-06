@@ -6,24 +6,23 @@
     <title>HTML Form Element</title>
   </head>
   <body>
-    <!-- represent a section containing interactive -->
+    <h1>Form Page.</h1>
+    <!-- Form in HTML => Data collection -->
     <form>
-      <label for="name">Enter your first name:</label>
-      <input type="text" name="name" id="name" required />
+      <label for="name">Enter your first name:</label><br />
+      <input type="text" name="name" id="name" required /> <br />
 
-      <label for="name">Enter your last name:</label>
-      <input type="text" name="name" id="name" required />
-
-      <label for="name">Password:</label>
-      <input type="password" name="name" id="name" required />
-
-      <label for="pet-select">Gender</label>
-      <select name="pets" id="pet-select">
+      <label for="">Select your favorite pet</label>
+      <select name="" id="">
         <option value="&nbsp;">&nbsp;</option>
-        <option value="female">Female</option>
-        <option value="male">Male</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
       </select>
-      <input type="submit" value="Subscribe" />
+      <br />
+      <label for="birthday">Input Your Birthday:</label><br />
+      <input type="datetime-local" name="birthday" id="birthday" />
+
+      <input type="submit" value="Send" />
     </form>
   </body>
 </html>
