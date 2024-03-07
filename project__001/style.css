@@ -1,0 +1,36 @@
+:root {
+  background: #0f0f25;
+  font-size: 62.5%;
+  color: rgba(255, 250, 250, 0.755);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-variant: normal;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #24246cc2;
+  width: 60vw;
+  max-width: 30%;
+  padding: 4rem;
+  margin: 0 auto;
+  font-size: 4.2rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
