@@ -23,6 +23,10 @@ body {
 }
 
 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: #24246cc2;
   width: 60vw;
   max-width: 30%;
@@ -34,4 +38,14 @@ body {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
