@@ -39,3 +39,9 @@ nav {
   display: flex;
   gap: 2rem;
 }
+
+@media screen and (max-width: 460px) {
+  nav {
+    justify-content: space-between;
+  }
+}
