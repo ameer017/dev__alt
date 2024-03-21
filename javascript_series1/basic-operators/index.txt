@@ -1,0 +1,14 @@
+The following math operations are supported in JavaScript:
+Addition +,
+Subtraction -,
+Multiplication *,
+Division /,
+Remainder %,
+Exponentiation **
+Remember If an expression has more than one operator, the execution order is defined by their precedence, or, in other words, the default priority order of operators.
+binary + is applied to strings, it merges (concatenates) them:
+We know many operators from school. They are things like addition +, multiplication *, subtraction -, and so on. Show examples
+Remember If an expression has more than one operator, the execution order is defined by their precedence, or, in other words, the default priority order of operators.
+Parentheses override any precedence, so if we’re not satisfied with the default order, we can use them to change it. For example, write (1 + 2) * 2.
+Let’s meet features of JavaScript operators that are beyond school arithmetics. So operators like addition works for strings. Show example
+if the binary + is applied to strings, it merges (concatenates) them:
