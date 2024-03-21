@@ -1,0 +1,10 @@
+Destructuring assignment is a special syntax that allows us to “unpack” arrays or objects into a bunch of variables, as sometimes that’s more convenient.
+Destructuring also works great with complex functions that have a lot of parameters, default values, and so on. Soon we’ll see that.
+
+Destructuring assignment
+It’s called “destructuring assignment,” because it “destructure” by copying items into variables. But the array itself is not modified. let firstName = arr[0]   ;
+Unwanted elements of the array can also be thrown away via an extra comma: let [firstName, , title] = [“Julius”, “Caesar”, “Consul”, “of the Roman Republic”] ; In the code above, the second element of the array is skipped, the third one is assigned to title, and the rest of the array items is also skipped (as there are no variables for them).
+We can use it with any iterable, not only arrays: let [a, b, c] = “abc”                                                                                                   ; // [“a”, “b”, “c”]
+The order of destructuring in objects does not matter
+If we have a complex object with many properties, we can extract only what we need.
+If an object or an array contain other nested objects and arrays, we can use more complex left-side patterns to extract deeper portions.
