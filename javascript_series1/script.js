@@ -43,30 +43,44 @@ let sizeIsSmall = false; //No, the size is not small
 let size = null;
 let num = null;
 
-alert(typeof size)
-
 //undefined type
 let weight; //The variable size is undefined by default
+// alert(weight);
 let age = undefined; //This can be done explicitly as well (Not recommended)
 
 //Objects
-let user1 = {};
+let user1 = {}; //Recommended way
 let user2 = new Object();
 user1["name"] = "Azeez";
+user1["age"] = 20;
+user1["username"] = "azeez123";
+user1["email_verified"] = true;
+
+console.log(user1);
 
 let user3 = {
   name: "John Doe",
   age: 20,
   weight: 20.3,
   verifiedUser: true,
+  "profile setting": {
+    theme: "dark",
+    font_size: 20,
+    show_my_profile_picture: true,
+  },
 };
 
+console.log(user3);
 let user = {
   name: "John Doe",
   age: 20,
   weight: 20.3,
   verifiedUser: true,
 };
+
 console.log(user["name"]);
 console.log(user.age);
 delete user.weight;
+
+
+
