@@ -26,7 +26,7 @@ let lastName = "Azeez";
 let fullName = `Mr ${firstName}${lastName}`;
 
 let message =
-  "Hello my friends\n My name is Johnson\n I am a software engineer";
+  "Hello my friends\n My name is Al Ameer\n I am a software engineer";
 console.log(message.toUpperCase());
 // 'HELLO MY FRIENDS\n MY NAME IS JOHNSON\n I AM A SOFTWARE ENGINEER'
 console.log(message.startsWith("Hello"));
@@ -34,7 +34,7 @@ console.log(message.startsWith("Hello"));
 console.log(message.indexOf("name"));
 // 21
 console.log("\u{1F60D}");
-
+// alert(message)
 //Boolean
 let isBigSize = true; //Yes, the size is big
 let sizeIsSmall = false; //No, the size is not small
