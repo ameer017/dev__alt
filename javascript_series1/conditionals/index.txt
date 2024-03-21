@@ -1,0 +1,30 @@
+Conditional branching (if)
+
+Sometimes, we need to perform different actions based on different conditions. To do that, we can use the if statement and the conditional operator
+The if(…) statement evaluates a condition and, if the result is true, executes a block of code.
+We recommend wrapping your code block with curly braces {} every time you use an if statement, even if there is only one statement to execute. Doing so improves readability.
+The if (…) statement evaluates the expression in its parentheses and converts the result to a boolean. if (0) { // 0 is falsy..} works because 0 is falsy
+Conditional branching (if-else)
+
+The else clause may contain an optional block if code that evaluates when the condition is falsy
+Conditional branching (else-if)
+
+Multiple else-if clause can be chained to test numerous conditions
+The final else is optional. When all else fails, it gets executed
+Conditional operator ( ? )
+
+The conditional operator (? ) called the ternary operator can be used to assign values based on a condition
+The operator is represented by a question mark ?. Sometimes it’s called “ternary”, because the operator has three operands. It is actually the one and only operator in JavaScript which has that many.
+Conditional branching (switch)
+
+A switch statement can replace multiple if checks. It gives a cleaner way of comparing a value with multiple variants. It has the following syntax:
+The switch has one or more case blocks and an optional default.
+The case check is a strict equality
+If the equality is found, switch starts to execute the code starting from the corresponding case, until the nearest break (or until the end of switch).
+If no case is matched then the default code is executed (if it exists).
+Logical operators
+
+Logical operators available in JavaScript are: || (OR), && (AND), ! (NOT)
+Although they are called “logical”, they can be applied to values of any type, not only boolean. Their result can also be of any type.
+OR==> If any of its arguments are true, it returns true, otherwise it returns false. Show examples with if statements
+If an operand is not a boolean, it’s converted to a boolean for the evaluation. For instance, the number 1 is treated as true, the number 0 as false: if (1 || 0) {…}
