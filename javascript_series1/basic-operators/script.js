@@ -1,4 +1,4 @@
-//Math operators
+//Math operators - lesson 1
 
 // Addition
 let sumResult = 20 + 23.1;
@@ -20,7 +20,7 @@ let exponentResult = 2 ** 2;
 
 
 
-//Comparison Operators
+//Comparison Operators - lesson 2
 
 // Greater than
 console.log(2 > 1) // true
@@ -77,3 +77,9 @@ let simpleInterest = (principal * rate * years) / 100
 
 // Precedence Table
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+let d_size = 10;
+
+if (d_size) {
+    console.log()
+}
