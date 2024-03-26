@@ -1,0 +1,9 @@
+All HTML tag in a page is an object. Nested tags are “children” of the enclosing one. The text inside a tag is an object as well.
+The Dom tree is a large object representing all page tags. You can see the Dom tree of page by inspecting the page in the developer console
+
+<img src='https://thealtschool.com/wp-content/uploads/2022/06/Screenshot-2022-06-12-at-10.49.25-AM.png?w=1024'/>
+
+DOM Tree
+The backbone of an HTML document is tags.
+For example, document.body is the object representing the <body> tag. Run this code : document.body.style.background = “red”
+DOM nodes have properties and methods that allow us to travel between them, modify them, move around the page, and more. We’ll get down to them in the next chapters.
