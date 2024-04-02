@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">Home</a>
+      <a href="./assignment2.html">Assignment 2</a>
+    </header>
 
-</head>
-<body>
-    
-</body>
+    <main>
+      <form>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="" required />
+        </div>
+        <div>
+          <label for="message">Input your message here:</label> <br />
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+        </div>
+
+        <div>
+          <label for="stack">Learning Stack:</label>
+          <select name="stack" id="" required>
+            <option value="&nbsp;">&nbsp;</option>
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+          </select>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
 </html>
