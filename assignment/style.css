@@ -18,9 +18,9 @@ a {
 }
 
 a:hover {
-    transition-duration: 600ms;
-    transform: translateY(-4px);
-    text-decoration: underline;
+  transition-duration: 600ms;
+  transform: translateY(-4px);
+  text-decoration: underline;
 }
 
 header {
@@ -30,6 +30,11 @@ header {
   padding: 18px;
 }
 
-main {
+main,
+main > div {
   padding: 18px;
+}
+
+main > div p {
+  margin-bottom: 2em;
 }
