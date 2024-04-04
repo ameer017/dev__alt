@@ -12,3 +12,6 @@
 // E.g Wikipedia, Google, Twitter
 
 
+// alert(document.title)
+// alert(document.head.innerHTML)
+
